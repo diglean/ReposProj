@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function Main(){
-    return(
-        <h1>Main</h1>
+import { Title } from './styles'
+
+export default function Main() {
+    return (
+        <Title>
+            Main
+        </Title>
     )
 }
